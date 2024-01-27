@@ -1,2 +1,4 @@
 # mdisec-twitch-notlari
 Bu repo'da MDISEC Siber Güvenlik Eğitimlerini takip ederken aldığım notları paylaşmaktayım. Burada anlatılan tüm dersleri düzenli bir şekilde yazılı olarak bulabilirsiniz. Tüm eğitimleri için eklenecektir.
+
+### 1- (Bir Hacker’ın Gözünden Modern Web Nasıl Çalışır ? | MDISEC Neler Anlattı #4)[https://github.com/ilker-yilmaz/mdisec-twitch-notlari/blob/main/Bir%20Hacker%E2%80%99%C4%B1n%20G%C3%B6z%C3%BCnden%20Modern%20Web%20Nas%C4%B1l%20%C3%87al%C4%B1%C5%9F%C4%B1r%20_%20_%20MDISEC%20Neler%20Anlatt%C4%B1%20%235/Bir%20Hacker%E2%80%99%C4%B1n%20G%C3%B6z%C3%BCnden%20Modern%20Web%20Nas%C4%B1l%20%C3%87al%C4%B1%C5%9F%C4%B1r%20%3F%20%7C%20MDISEC%20Neler%20Anlatt%C4%B1%20%235.md]
