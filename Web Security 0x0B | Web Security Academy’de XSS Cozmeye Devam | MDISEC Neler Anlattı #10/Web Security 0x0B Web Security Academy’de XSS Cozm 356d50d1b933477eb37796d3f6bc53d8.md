@@ -1,11 +1,11 @@
-# Web Security 0x0B | Web Security Academy'de XSS Çözmeye Devam | MDISEC Neler Anlattı #10
+# Web Security 0x0B | Web Security Academy’de XSS Cozmeye Devam
 
 # Lab: Clobbering DOM attributes to bypass HTML filters
 
 > Bu lab ortamında HTMLJanitor isimli bir JavaScript kütüphanesi kullanılmaktadır. JavaScript payload’larını bulup temizleyen bir kütüphane gibi düşünebiliriz bunu. İsminden anlaşılan da budur.
 > 
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled.png)
 
 - HTML Filtreleme diye bir konu bulunmaktadır. Kullandığınız bir web uygulamasında gelen bazı kısımlarda içerikler HTML formatındadır. Örneğin sahibinden araç satış sitesi gibi bir uygulamada bir ürünün açıklama sayfası aslında HTML sayfası şeklindedir. Buradaki içerik ilanı oluşturan kullanıcıdan alınmaktadır. Aynı zamanda ilan başka kullanıcılara gösterilmektedir. Yani güvensiz bir kaynaktan alınan HTML içerik farklı kullanıcılara sunulmaktadır. Tam olarak bir Stored XSS ortamı oluşmaktadır burada. Dolayısıyla bu içerikte bir XSS Payload’ının olmadığına emin olmanız gerekmektedir. Kullanıcıdan alınan içerik HTML olduğu için bunun filtrelenmesi ve temizlenmesi gerekmektedir. Yani blacklist mantığıyla istenmeyen içerikler filtrelenmelidir. Bu konu için de [DOMPurify](https://github.com/cure53/DOMPurify) isimli bir araç bulunmaktadır. [https://github.com/cure53/DOMPurify](https://github.com/cure53/DOMPurify)
 - Burada HTML içeriğe yazdığınız saldırı kodları silinip temizleneceği için 2 seçeneğiniz bulunmaktadır. Ya buradaki filtering blacklisting’i bypass’lamanız ya da HTML içeriğini yöneten başka bir javascript kodu ile ilerlemeniz gerekir.
@@ -16,12 +16,12 @@
 ilker'"'`< > yılmaz <script>alert(1)</script> mdisec <svg onload=alert(1)> deneme <form>
 ```
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%201.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%201.png)
 
 > Yorumu kaydettikten sonra sayfada bu şekilde gösterildiğini görmekteyiz.
 > 
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%202.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%202.png)
 
 - Buradaki yorumu inspect element ile incelediğimizde şu yapıda olduğunu görebiliriz. Verdiğimiz data’da XSS Payload’ları silinmiş ve tamamlamadığımız <form> tag’i tarayıcı tarafından tamamlanmış durumda. Verdiğimiz özel karakterler de encode edilmiş durumda.
 
@@ -31,7 +31,7 @@ ilker'"'`< > yılmaz <script>alert(1)</script> mdisec <svg onload=alert(1)> dene
 
 - Burada silme işlemleri backen yerine muhtemelen client’ta yapılıyordur. Bu yüzden sayfa kaynağındaki JavaScript kodlarına bakabiliriz. Sayfa kaynağını incelediğimizde bu konularla ilgili 2 adet JavaScript dosyası görmekteyiz.
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%203.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%203.png)
 
 - İkinci sıradaki dosyamızı inceleyelim ve neler olup bittiğini görelim.
 - Bu dosyayı incelediğimizde şu kod satırıyla birlikte bazı tag’lerin kullanımına izin verildiğini görüyoruz. Bunlar “input, form, i,b,p” tag’leri olarak belirlenmiş durumda. Aynı zamanda buradaki tag’ler için de kullanılabilecek attribute’lar belirlenmiş durumda.
@@ -58,7 +58,7 @@ if (comment.body) {
 mdisec <form action=selam id=x> aleykumselam
 ```
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%204.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%204.png)
 
 - Burada yorumu gönderdikten sonra oluşan yorumumuzu inspect element ile inceleyebiliriz. Bu kısmı incelediğimizde izin verilmeyen attribute’ların silindiğini kolaylıkla fark edebiliriz.
 
@@ -78,7 +78,7 @@ mdisec <form onfocus=alert(1)><input id=attributes>Click me
 <p>mdisec <form onfocus="alert(1)"><input>Click me</form></p>
 ```
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%205.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%205.png)
 
 - Burada yaşanan olayın nasıl olduğunu anlamamız gerekiyor. İncelediğimiz JavaScript dosyasındaki kodlara baktığımızda ilgili JavaScript kodu attribute’ları dolaşırken yanlışlıkla form elementinin attribute’unu değil de sadece input elementinin attribute’larını dolaşmaktadır. Böylece form elmentindeki onfocus attribute’una hiçbir zaman dokunmamaktadır.
 
@@ -97,13 +97,13 @@ mdisec <form onfocus=alert(1)><input id=attributes>Click me
 
 - Tarayıcı konsolunda da denemeler yaptığımızda id attribute’u için “attributes” değerinden başka bir değişken verdiğimizde istediğimiz sonucu alamamaktayız. Sadece “attributes” verdiğimizde silinmemektedir.
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%206.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%206.png)
 
 - Burada aslında yaşanan olay şöyledir;
 id attribute’una verdiğiniz isim ne ise o isim node içerisinde yani JavaScript o tag’i node olarak değerlendirdiğinde, ilgili node’un içerisinde bir değişken adı olarak oluşmakta.
 - Yani kodumuzdaki for döngüsü node’nin attribute’unu almak istediğinde form’un içerisindeki input elementinin id değeri attributes olduğundan dolayı node.attributes buna atanmış oluyor. Aslında burada for döngüsündeni node içerisinde attribute diye bir isim oluşmakta ve bunun uzunluğu bulunmamakta. Dolayısıyla bu döngüye hiç girmemektedir. Girmediği için de silme işlemi gerçekleşmemektedir.
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%207.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%207.png)
 
 - Artık bu bilgiler ışığında lab ortamını çözmeye odaklanalım. Yukarıda da gördüğümüz yorum alanında çalışmalarımıza devam edelim. Burada girdiğimiz yorum ile bir pop-up çıkartarak document.cookie değerini almamız gerekmektedir.
 
@@ -113,7 +113,7 @@ id attribute’una verdiğiniz isim ne ise o isim node içerisinde yani JavaScri
 <form id=x tabindex=0 onfocus=print()><input id=attributes>
 ```
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%208.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%208.png)
 
 - Artık exploit server’a giderek iframe ile kurduğumuz yapıyı buraya koyabiliriz.
 
@@ -121,11 +121,11 @@ id attribute’una verdiğiniz isim ne ise o isim node içerisinde yani JavaScri
 <iframe src=https://0a69009b03868a8f81ffa70100b100a8.web-security-academy.net/post?postId=5 onload="setTimeout(()=>this.src=this.src+'#x',500)">
 ```
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%209.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%209.png)
 
 - Ve artık bu sayede lab’ı çözmüş olduk…
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%2010.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%2010.png)
 
 # Browser Davranışları
 
@@ -157,7 +157,7 @@ Siz yapınızı kısmen bozmuş olsanız bile tarayıcı davranışlarıyla birl
 </html>
 ```
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%2011.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%2011.png)
 
 # Lab: Reflected XSS into HTML context with nothing encoded
 
@@ -169,7 +169,7 @@ Buradaki mevzuyu da muhtemelen artık anlamış olmalıyız…
 <script>alert(1)</script>
 ```
 
-![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy'de%20XSS%20C%CC%A7o%CC%88%20356d50d1b933477eb37796d3f6bc53d8/Untitled%2012.png)
+![Untitled](Web%20Security%200x0B%20Web%20Security%20Academy%E2%80%99de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8/Untitled%2012.png)
 
 - XSS ile ilgili kapsamlı bir kaynak arayışındaysanız da bu adresi ziyaret edebilirsiniz: [https://portswigger.net/web-security/cross-site-scripting/cheat-sheet](https://portswigger.net/web-security/cross-site-scripting/cheat-sheet)
 
