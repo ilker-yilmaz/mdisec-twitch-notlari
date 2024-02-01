@@ -23,7 +23,7 @@ Bu repo'da MDISEC Siber Güvenlik Eğitimlerini takip ederken aldığım notlar�
  20. [****]() 
  21. [****]() 
  22. [****]()  
- 23. [**0x23 | Parolalar Nasıl Saklanmalı 101 & Hash Cracking'e Dair Her şey | MDISEC Neler Anlattı #23**] (/[Parolalar Nasıl Saklanmalı 101 & Şifreleme (Encryption)Dünyası | MDISEC Neler Anlattı #1.md](Parolalar%20Nas%C4%B1l%20Saklanmal%C4%B1%20101%20%26%20%C5%9Eifreleme%20%28Encryption%29D%C3%BCnyas%C4%B1%20%7C%20MDISEC%20Neler%20Anlatt%C4%B1%20%231%2FParolalar%20Nas%C4%B1l%20Saklanmal%C4%B1%20101%20%26%20%C5%9Eifreleme%20%28Encryption%29D%C3%BCnyas%C4%B1%20%7C%20MDISEC%20Neler%20Anlatt%C4%B1%20%231.md))
+ 23. [**0x23 | Parolalar Nasıl Saklanmalı 101 & Hash Cracking'e Dair Her şey | MDISEC Neler Anlattı #23**](/Parolalar%20Nasıl%20Saklanmalı%20101%20&%20Şifreleme%20(Encryption)Dünyası%20%7C%20MDISEC%20Neler%20Anlattı%20%231/Parolalar%20Nasıl%20Saklanmalı%20101%20&%20Şifreleme%20(Encryption)Dünyası%20%7C%20MDISEC%20Neler%20Anlattı%20%231.md)
  24. [****]() 
  25. [****]() 
  26. [****]() 
