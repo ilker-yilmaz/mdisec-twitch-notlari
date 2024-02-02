@@ -12,7 +12,7 @@ Bu repo'da MDISEC Siber Güvenlik Eğitimlerini takip ederken aldığım notlar�
  9. [**0x09 | XSS Güvenlik Zafiyeti Serüvenine Devam Part 2 | MDISEC Neler Anlattı #9**]()
  10. [**0x0A | Web Security Academy'den Devam Ediyoruz | MDISEC Neler Anlattı #10**](/Web%20Security%200x0A%20%7C%20Web%20Security%20Academy'den%20Devam%20Ediyoruz%20-%20SQL%20Injection%20Lab%20Çözümleri%20%7C%20MDISEC%20Neler%20Anlattı%20%239/Web%20Security%200x0A%20Web%20Security%20Academy'den%20Devam%20E%205d98a1205cb7439db45c8e0570ab118e.md)
  11. [**0x0B | Web Security Academy'de XSS Çözmeye Devam | MDISEC Neler Anlattı #11**](/Web%20Security%200x0B%20%7C%20Web%20Security%20Academy’de%20XSS%20Cozmeye%20Devam%20%7C%20MDISEC%20Neler%20Anlattı%20%2310/Web%20Security%200x0B%20Web%20Security%20Academy’de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8.md) 
- 12. [**0x0C | Deserialization Zafiyetlerini Anlamak | MDISEC Neler Anlattı #12**](/Web%20Security%200x0C%20Deserialization%20Zafiyetlerini%20Anlamak%20-%20Episode-1%20%7C%20MDISEC%20Neler%20Anlattı%20%2311) 
+ 12. [**0x0C | Deserialization Zafiyetlerini Anlamak | MDISEC Neler Anlattı #12**](/0x0C%20Deserialization%20Zafiyetlerini%20Anlamak%20-%20Episode-1%20|%20MDISEC%20Neler%20Anlattı%20#11/Web%20Security%200x0C%20Deserialization%20Zafiyetlerini%20An%20807152269cce4617a57cc81b06250dad.md) 
  13. [****]() 
  14. [****]() 
  15. [****]() 
