@@ -1,7 +1,7 @@
 # mdisec-twitch-notlari
 Bu repo'da MDISEC Siber Güvenlik Eğitimlerini takip ederken aldığım notları paylaşmaktayım. Burada anlatılan tüm dersleri düzenli bir şekilde yazılı olarak bulabilirsiniz. Tüm eğitimleri için eklenecektir.
 
- 1. [**0x01 | SQL Injection'ı Bütünüyle Anlamak | MDISEC Neler Anlattı #1**]()
+ 1. [**0x01 | SQL Injection'ı Bütünüyle Anlamak | MDISEC Neler Anlattı #1**](/0x01%20|%20SQL%20Injection’ı%20Bütünüyle%20Anlamak%20|%20MDISEC%20Neler%20Anlattı/0x01%20104201f95d914f67830bee663ffbdc7f.md)
  2. [**0x02 | IDOR Insecure Direct Object Reference Zafiyetleri Hakkında Her şey | MDISEC Neler Anlattı #2**]()
  3. [**0x03 | Session'ı ve CSRF Zafiyetini Anlamak. SameSite Cookie Önlemi E-ticareti Nasıl Yok Etti | MDISEC Neler Anlattı #3**]()
  4. [**0x04 | Bir Hacker'ın Gözünden Modern Web Nasıl Çalışır? | MDISEC Neler Anlattı #4**]()
