@@ -14,7 +14,7 @@ Bu repo'da MDISEC Siber Güvenlik Eğitimlerini takip ederken aldığım notlar�
  11. [**0x0B | Web Security Academy'de XSS Çözmeye Devam | MDISEC Neler Anlattı #11**](/0x0B%20|%20Web%20Security%20Academy’de%20XSS%20Cozmeye%20Devam%20|%20MDISEC%20Neler%20Anlattı%20#10/Web%20Security%200x0B%20Web%20Security%20Academy’de%20XSS%20Cozm%20356d50d1b933477eb37796d3f6bc53d8.md) 
  12. [**0x0C | Deserialization Zafiyetlerini Anlamak - Episode 1 | MDISEC Neler Anlattı #12**](/0x0C%20%20|%20Deserialization%20Zafiyetlerini%20Anlamak%20Episode%201/0x0C%20807152269cce4617a57cc81b06250dad.md) 
  13. [**0x0C | Deserialization Zafiyetlerini Anlamak - Episode 2**](/0x0C%20|%20Deserialization%20Zafiyetlerini%20Anlamak%20Episode%202/0x0C%20Deserialization%20Zafiyetlerini%20Anlamak%20Episode%2078d04d91baaa44d0959227e5c55cbc59.md) 
- 14. [****]() 
+ 14. [**0x0D | Deserialization Exploitation**](/0x0D%20|%20Deserialization%20Exploitation 0x0D%20e7c75cda4af14d9f8c7d57729ec14f3a.md) 
  15. [****]() 
  16. [****]() 
  17. [****]() 
