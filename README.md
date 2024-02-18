@@ -19,7 +19,7 @@ Bu repo'da MDISEC Siber Güvenlik Eğitimlerini takip ederken aldığım notlar�
  16. [****]() 
  17. [****]() 
  18. [****]() 
- 19. [****]() 
+ 19. [**0x12 | CS253 Sınavına Giriyor MDISEC**](/0x12%20%20|%20CS253%20Sınavına%20Giriyor%20MDISEC/0x12%203d08c03a285a4d5e931128b3609b0698.md) 
  20. [****]() 
  21. [****]() 
  22. [****]()  
