@@ -2,7 +2,7 @@
 Bu repo'da MDISEC Siber Güvenlik Eğitimlerini takip ederken aldığım notları paylaşmaktayım. Burada anlatılan tüm dersleri düzenli bir şekilde yazılı olarak bulabilirsiniz. Tüm eğitimleri için eklenecektir.
 
  1. [**0x01 | SQL Injection'ı Bütünüyle Anlamak | MDISEC Neler Anlattı #1**](/0x01%20|%20SQL%20Injection’ı%20Bütünüyle%20Anlamak%20|%20MDISEC%20Neler%20Anlattı/0x01%20104201f95d914f67830bee663ffbdc7f.md)
- 2. [**0x02 | IDOR Insecure Direct Object Reference Zafiyetleri Hakkında Her şey | MDISEC Neler Anlattı #2**](/0x02%20%20|%20IDOR%20(Insecure%20Direct%20Object%20Reference)%20Hakkında%20Her%20şey%20|%20MDISEC%20Neler%20Anlattı%20#3/0x02%204c5ab91a49e44cbe8e5a0b2b2df4bfbd.md)
+ 2. [**0x02 | IDOR Insecure Direct Object Reference Zafiyetleri Hakkında Her şey | MDISEC Neler Anlattı #2**](/0x02%20%20|%20IDOR%20Hakkında%20Her%20şey/0x02-IDOR.md)
  3. [**0x03 | Session'ı ve CSRF Zafiyetini Anlamak. SameSite Cookie Önlemi E-ticareti Nasıl Yok Etti | MDISEC Neler Anlattı #3**]()
  4. [**0x04 | Bir Hacker'ın Gözünden Modern Web Nasıl Çalışır? | MDISEC Neler Anlattı #4**]()
  5. [**0x05 | HackerConf.Stream! Goygoy ve Akabinde Web Security Academy'e Dalış**]()
