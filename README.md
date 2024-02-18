@@ -15,7 +15,7 @@ Bu repo'da MDISEC Siber Güvenlik Eğitimlerini takip ederken aldığım notlar�
  12. [**0x0C | Deserialization Zafiyetlerini Anlamak - Episode 1 | MDISEC Neler Anlattı #12**](/0x0C%20%20|%20Deserialization%20Zafiyetlerini%20Anlamak%20Episode%201/0x0C%20807152269cce4617a57cc81b06250dad.md) 
  13. [**0x0C | Deserialization Zafiyetlerini Anlamak - Episode 2**](/0x0C%20|%20Deserialization%20Zafiyetlerini%20Anlamak%20Episode%202/0x0C%20Deserialization%20Zafiyetlerini%20Anlamak%20Episode%2078d04d91baaa44d0959227e5c55cbc59.md) 
  14. [**0x0D | Deserialization Exploitation**](/0x0D%20|%20Deserialization%20Exploitation/0x0D%20e7c75cda4af14d9f8c7d57729ec14f3a.md) 
- 15. [****]() 
+ 15. [**0x0E | SSL Temelde Nedir ? HSTS**](/0x0E%20%20|%20SSL%20Temelde%20Nedir%20?%20HSTS/0x0E%2075b658ad3df848cbac9efe8d8fe2eb9e.md) 
  16. [****]() 
  17. [****]() 
  18. [****]() 
