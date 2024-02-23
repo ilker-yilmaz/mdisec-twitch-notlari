@@ -20,7 +20,7 @@ Bu repo'da MDISEC Siber Güvenlik Eğitimlerini takip ederken aldığım notlar�
  17. [****]() 
  18. [****]() 
  19. [**0x12 | CS253 Sınavına Giriyor MDISEC**](/0x12%20%20|%20CS253%20Sınavına%20Giriyor%20MDISEC/0x12%203d08c03a285a4d5e931128b3609b0698.md) 
- 20. [****]() 
+ 20. [**0x13 | Host Header Manipulations**](/0x13%20|%20Host%20Header%20Manipulations/0x13%20ada5ae96539943db9d14955c71e3b77c.md) 
  21. [****]() 
  22. [****]()  
  23. [**0x23 | Parolalar Nasıl Saklanmalı 101 & Hash Cracking'e Dair Her şey**](/0x23%20|%20Parolalar%20Nasıl%20Saklanmalı%20101%20&%20Hash%20Cracking'e%20Dair%20Her%20şey/0x23%20dcdf4ea5278c47728551d78809360a98.md)
