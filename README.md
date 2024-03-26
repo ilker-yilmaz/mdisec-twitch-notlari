@@ -14,11 +14,11 @@ Bu repo'da https://twitch.tv/mdisec kanalında yapılan kanlı-canlı siber güv
      * [https://www.twitch.tv/videos/597782271](https://www.twitch.tv/videos/597782271)
      * [https://www.youtube.com/watch?v=TsJ2XPuGe1k](https://www.youtube.com/watch?v=TsJ2XPuGe1k)
   3. 0x03 | Session'ı ve CSRF Zafiyetini Anlamak. SameSite Cookie Önlemi E-ticareti Nasıl Yok Etti
-     * [0x03 | Session'ı ve CSRF Zafiyetini Anlamak. SameSite Cookie Önlemi E-ticareti Nasıl Yok Etti - **Makale**](/notlar/)
+     * [0x03 | Session'ı ve CSRF Zafiyetini Anlamak. SameSite Cookie Önlemi E-ticareti Nasıl Yok Etti - **Makale**](/notlar/0x03%20%20%7C%20Session’ı%20ve%20CSRF%20Zafiyetini%20Anlamak%20&%20SameSite%20Cookie%20Önlemi/0x03%20452c28b29ec0467283e5b06561ae63be.md)
      * [https://www.twitch.tv/videos/601669993](https://www.twitch.tv/videos/601669993)
      * [https://www.youtube.com/watch?v=CKHai0OW6BY](https://www.youtube.com/watch?v=CKHai0OW6BY)
   4. 0x04 | Bir Hacker'ın Gözünden Modern Web Nasıl Çalışır?
-     * [0x04 | Bir Hacker'ın Gözünden Modern Web Nasıl Çalışır? - **Makale**](/notlar/)
+     * [0x04 | Bir Hacker'ın Gözünden Modern Web Nasıl Çalışır? - **Makale**](/notlar/0x04%20%20%7C%20Bir%20Hacker’ın%20Gözünden%20Modern%20Web%20Nasıl%20Çalışır%20%3F/0x04%204d165a8660364c42a9c6e24c85bac508.md)
      * [https://www.twitch.tv/videos/615150454](https://www.twitch.tv/videos/615150454)
      * [https://www.youtube.com/watch?v=3AgDSw0I89A](https://www.youtube.com/watch?v=3AgDSw0I89A)
   5. 0x05 | HackerConf.Stream! Goygoy ve Akabinde Web Security Academy'e Dalış
