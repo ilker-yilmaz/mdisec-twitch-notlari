@@ -109,6 +109,7 @@ Bu repo'da https://twitch.tv/mdisec kanalında yapılan kanlı-canlı siber güv
       * [https://www.twitch.tv/videos/899537119](https://www.twitch.tv/videos/899537119)
       * [https://www.youtube.com/watch?v=scs6PJ8qMuw](https://www.youtube.com/watch?v=scs6PJ8qMuw)
   28. 0x1C | Web Cache Nedir ? Web Cache Poisoning Zafiyeti
+      * [0x1C | Web Cache Nedir ? Web Cache Poisoning Zafiyeti ** Makale **](/notlar/0x1C%20%7C%20Web%20Cache%20Nedir%20%3F%20Web%20cache%20poisoning%20zafiyeti/0x1C%20dbd41e58297e48eebc915c8d3492e66d.md)
       * [https://www.twitch.tv/videos/924318160](https://www.twitch.tv/videos/924318160)
       * [https://www.youtube.com/watch?v=U5bx4ZXdmRI](https://www.youtube.com/watch?v=U5bx4ZXdmRI)
   29. 0x1D | Burp DOM Invader
